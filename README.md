@@ -1,17 +1,17 @@
 <p align="center">
-  <img src="./github_banner_wide_cat_1920x900.gif" width="100%" alt="Animated GitHub Banner">
+  <img src="./github_banner_current_video_1920x900.gif" width="100%" alt="Animated GitHub Banner">
 </p>
 
 ---
 
 # 👋 About Me
 
-* 💻 **AI & Data Science student** building full-stack and AI-powered projects
-* 🚀 Passionate about **building, shipping, and experimenting**
-* 🧠 Currently exploring **AI, Web Development & emerging technologies**
-* 🛠️ Love turning ideas into real-world products
-* 🌐 Interested in **startups, open source, and developer tools**
-* ⚡ Fun fact: I probably spend more time coding than sleeping
+- 💻 **AI & Data Science student** building full-stack and AI-powered projects
+- 🚀 Passionate about **building, shipping, and experimenting**
+- 🧠 Currently exploring **AI, Web Development & emerging technologies**
+- 🛠️ Love turning ideas into real-world products
+- 🌐 Interested in **startups, open source, and developer tools**
+- ⚡ Fun fact: I probably spend more time coding than sleeping
 
 ---
 
@@ -43,7 +43,7 @@
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=beswinjoe&show_icons=true&theme=dark&hide_border=true&count_private=true" height="180">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=beswinjoe&theme=dark&hide_border=true" height="180">
+  <img src="https://streak-stats.vercel.app/?user=beswinjoe&theme=dark&hide_border=true" height="180">
 </p>
 
 <p align="center">
@@ -52,21 +52,13 @@
 
 ---
 
-# 📈 Contribution Graph
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=beswinjoe&theme=github-dark&hide_border=true&area=true" width="100%">
-</p>
-
----
-
 # 🚀 What I'm Building
 
-* 🤖 AI-powered applications
-* 🌐 Full-stack web applications
-* 📊 Data Science & Machine Learning projects
-* 🧩 Developer tools and experiments
-* 🚀 Startup ideas
+- 🤖 AI-powered applications
+- 🌐 Full-stack web applications
+- 📊 Data Science & Machine Learning projects
+- 🧩 Developer tools and experiments
+- 🚀 Startup ideas
 
 ---
 
@@ -76,6 +68,7 @@
   <a href="https://github.com/beswinjoe">
     <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white">
   </a>
+
   <a href="https://www.linkedin.com/">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white">
   </a>
