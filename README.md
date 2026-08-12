@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./banner.gif" width="100%" alt="Neon Dreams">
+  <img src="./GitHub Profile Banner (1).gif" width="100%" alt="Animated GitHub Banner">
 </p>
 
 ---
