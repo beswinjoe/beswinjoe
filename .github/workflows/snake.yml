@@ -21,6 +21,27 @@ jobs:
           github_user_name: beswinjoe
           outputs: dist/github-snake.svg
 
+      - name: Add subtle 3D depth to contribution cells
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+
+          path = Path("dist/github-snake.svg")
+          svg = path.read_text(encoding="utf-8")
+          defs = """
+            <defs>
+              <filter id="cell-depth" x="-30%" y="-30%" width="170%" height="190%" color-interpolation-filters="sRGB">
+                <feDropShadow dx="0" dy="1.4" stdDeviation="1.1" flood-color="#000000" flood-opacity="0.42"/>
+              </filter>
+            </defs>
+          """
+          svg = re.sub(r'(<svg\b[^>]*>)', r'\1' + defs, svg, count=1)
+          # Add depth only to the individual activity cells, not the background or SVG root.
+          svg = re.sub(r'<(rect|path)(?=[\s>])', r'<\1 filter="url(#cell-depth)"', svg)
+          path.write_text(svg, encoding="utf-8")
+          PY
+
       - name: Publish contribution animation
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
