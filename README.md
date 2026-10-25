@@ -52,5 +52,11 @@
 # 📊 GitHub Activity
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=beswinjoe&theme=github-dark&hide_border=true&area=true" width="100%">
+  <a href="https://github.com/beswinjoe?tab=overview">
+    View my GitHub contribution activity
+  </a>
+  ·
+  <a href="https://github.com/beswinjoe?tab=repositories">
+    Explore my repositories
+  </a>
 </p>
