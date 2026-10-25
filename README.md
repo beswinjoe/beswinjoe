@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="./mochi.svg" width="100%" alt="Mochi, my animated pixel cat roaming around">
+  <img src="./mochi-classic.svg" width="100%" alt="Mochi, my animated pixel cat roaming around">
 </p>
 
 ---
