@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/beswinjoe/beswinjoe/main/dist/pet.svg" width="100%" alt="Mochi, my animated pixel cat">
+  <img src="./mochi.svg" width="100%" alt="Mochi, my animated pixel cat roaming around">
 </p>
 
 ---
