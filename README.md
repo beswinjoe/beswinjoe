@@ -56,11 +56,11 @@
 # 📊 GitHub Activity
 
 <p align="center">
-  <a href="https://github.com/beswinjoe?tab=overview">
-    View my GitHub contribution activity
-  </a>
-  ·
-  <a href="https://github.com/beswinjoe?tab=repositories">
-    Explore my repositories
-  </a>
+  <img src="https://raw.githubusercontent.com/beswinjoe/beswinjoe/output/github-snake.svg" alt="GitHub contribution activity animation" width="100%">
+</p>
+
+<p align="center">
+  <a href="https://github.com/beswinjoe?tab=overview">View contribution history</a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/beswinjoe?tab=repositories">Explore repositories</a>
 </p>
