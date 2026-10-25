@@ -1,36 +1,57 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="110" viewBox="0 0 900 110" role="img" aria-labelledby="title desc">
-  <title id="title">Mochi the roaming pixel cat</title>
-  <desc id="desc">A little pixel cat walks back and forth along a dark platform.</desc>
-  <rect width="900" height="110" rx="10" fill="#0d1117"/>
-  <path d="M0 86H900" stroke="#30363d" stroke-width="2"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="150" viewBox="0 0 1000 150" role="img" aria-labelledby="title desc">
+  <title id="title">Mochi — dimensional pixel cat</title>
+  <desc id="desc">A shaded pixel cat walks across a dark, layered scene with a soft moving shadow.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#191e29"/><stop offset="1" stop-color="#080a0f"/></linearGradient>
+    <linearGradient id="fur" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff"/><stop offset=".38" stop-color="#e3eaf3"/><stop offset=".72" stop-color="#aab7c9"/><stop offset="1" stop-color="#687589"/></linearGradient>
+    <linearGradient id="side" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#9aa8bc"/><stop offset="1" stop-color="#465267"/></linearGradient>
+    <linearGradient id="pink" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffc1df"/><stop offset="1" stop-color="#e65c9d"/></linearGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="4"/></filter>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#252c39" stroke-width="1"/></pattern>
+  </defs>
+  <rect width="1000" height="150" rx="12" fill="url(#bg)"/>
+  <rect width="1000" height="119" fill="url(#grid)" opacity=".8"/>
+  <path d="M0 119H1000" stroke="#343d4c" stroke-width="2"/><path d="M0 123H1000" stroke="#050609" stroke-width="3"/>
+  <text x="500" y="28" fill="#9ba7ba" font-family="ui-monospace,Menlo,monospace" font-size="13" text-anchor="middle">MOCHI.exe  •  roaming around</text>
   <g>
-    <animateTransform attributeName="transform" type="translate" values="-55 0; 820 0; -55 0" keyTimes="0;0.5;1" dur="18s" repeatCount="indefinite"/>
-    <g transform="translate(0 0)">
-      <g transform="translate(0 0)">
-        <animateTransform attributeName="transform" type="translate" values="0 0;0 -2;0 0" dur="0.38s" repeatCount="indefinite"/>
-        <!-- tail -->
-        <path d="M30 65h8v-8h8v-8h8v8h-8v8h-8v8h-8z" fill="#c9d1d9"/>
-        <!-- body -->
-        <rect x="13" y="54" width="24" height="18" fill="#c9d1d9"/>
-        <rect x="9" y="58" width="8" height="10" fill="#c9d1d9"/>
-        <!-- head and ears -->
-        <rect x="7" y="36" width="28" height="22" fill="#e6edf3"/>
-        <path d="M7 36v-8h8v8h6v-8h8v8z" fill="#e6edf3"/>
-        <!-- face -->
-        <rect x="13" y="43" width="4" height="4" fill="#0d1117"/>
-        <rect x="25" y="43" width="4" height="4" fill="#0d1117"/>
-        <rect x="19" y="49" width="4" height="3" fill="#f778ba"/>
-        <!-- paws -->
-        <g>
-          <rect x="13" y="70" width="8" height="8" fill="#e6edf3">
-            <animate attributeName="y" values="70;74;70" dur="0.38s" repeatCount="indefinite"/>
-          </rect>
-          <rect x="29" y="70" width="8" height="8" fill="#e6edf3">
-            <animate attributeName="y" values="74;70;74" dur="0.38s" repeatCount="indefinite"/>
-          </rect>
-        </g>
-      </g>
+    <animateTransform attributeName="transform" type="translate" values="-70 0;930 0;-70 0" keyTimes="0;.5;1" dur="22s" repeatCount="indefinite"/>
+    <ellipse cx="25" cy="120" rx="30" ry="5" fill="#000" opacity=".6" filter="url(#blur)">
+      <animate attributeName="rx" values="25;35;25" dur=".48s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".35;.65;.35" dur=".48s" repeatCount="indefinite"/>
+    </ellipse>
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -2;0 0" dur=".48s" repeatCount="indefinite"/>
+      <!-- swishing, shaded tail -->
+      <path d="M36 91h8v-9h8v-8h9v8h-8v9h-8v8h-9z" fill="#536074"/>
+      <path d="M36 88h8v-8h8v-6h6v5h-8v9h-8v7h-6z" fill="url(#fur)"/>
+      <path d="M44 88h8v-8h6" fill="none" stroke="#fff" stroke-width="2" opacity=".7">
+        <animate attributeName="opacity" values=".2;.9;.2" dur="1.1s" repeatCount="indefinite"/>
+      </path>
+      <!-- far leg -->
+      <path d="M17 104h10v13H17z" fill="#69768a"><animate attributeName="y" values="104;108;104" dur=".48s" repeatCount="indefinite"/></path>
+      <!-- volumetric body -->
+      <path d="M13 83h25v8h6v20H15v-5H9V91h4z" fill="url(#fur)"/>
+      <path d="M36 88h8v23h-8z" fill="url(#side)"/>
+      <path d="M14 85h22v3H14z" fill="#fff" opacity=".9"/>
+      <path d="M15 95h20" stroke="#bac5d5" stroke-width="2" opacity=".9"/>
+      <!-- alternating paws -->
+      <g><path d="M13 105h10v12H13z" fill="url(#fur)"><animate attributeName="y" values="105;109;105" dur=".48s" repeatCount="indefinite"/></path><path d="M13 114h10v3H13z" fill="#8290a5"><animate attributeName="y" values="114;118;114" dur=".48s" repeatCount="indefinite"/></path></g>
+      <g><path d="M30 105h10v12H30z" fill="url(#side)"><animate attributeName="y" values="109;105;109" dur=".48s" repeatCount="indefinite"/></path><path d="M30 114h10v3H30z" fill="#dbe4ef"><animate attributeName="y" values="118;114;118" dur=".48s" repeatCount="indefinite"/></path></g>
+      <!-- head with darker side planes -->
+      <path d="M7 53V37h8v7h6v-7h8v8h6v25H7z" fill="#667489"/>
+      <path d="M7 53V37h8v7h6v-7h8v8h6v21H7z" fill="url(#fur)"/>
+      <path d="M9 43v-3h4v7H9zM23 43v-3h4v7h-4z" fill="url(#pink)"/>
+      <path d="M7 53h4v10H7zM31 48h4v16h-4z" fill="#8794a8"/>
+      <path d="M10 45h3v-4h-3zM24 45h3v-4h-3z" fill="#fff" opacity=".9"/>
+      <!-- face -->
+      <path d="M11 54h22v12H11z" fill="#eaf0f7"/>
+      <rect x="12" y="51" width="5" height="5" fill="#18202c"/><rect x="26" y="51" width="5" height="5" fill="#18202c"/>
+      <rect x="13" y="51" width="2" height="2" fill="#fff"/><rect x="27" y="51" width="2" height="2" fill="#fff"/>
+      <path d="M20 58h4v3h-4z" fill="url(#pink)"/>
+      <path d="M22 61v3h-4M22 64h4" fill="none" stroke="#7d899a" stroke-width="1.5" stroke-linecap="square"/>
+      <path d="M9 57h4M31 57h4" stroke="#aab6c7" stroke-width="1.5"/>
+      <path d="M3 48v-5M1 46h5" stroke="#d9f3ff" stroke-width="1.5"><animate attributeName="opacity" values=".1;1;.1" dur="2.3s" repeatCount="indefinite"/></path>
     </g>
   </g>
-  <text x="450" y="35" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" text-anchor="middle">mochi.exe is roaming...</text>
+  <text x="980" y="140" fill="#596579" font-family="ui-monospace,Menlo,monospace" font-size="10" text-anchor="end">PIXEL PET // DEPTH MODE</text>
 </svg>
