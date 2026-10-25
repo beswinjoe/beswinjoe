@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="110" viewBox="0 0 900 110" role="img" aria-labelledby="title desc">
+  <title id="title">Mochi the roaming pixel cat</title>
+  <desc id="desc">A little pixel cat walks back and forth along a dark platform.</desc>
+  <rect width="900" height="110" rx="10" fill="#0d1117"/>
+  <path d="M0 86H900" stroke="#30363d" stroke-width="2"/>
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="-55 0; 820 0; -55 0" keyTimes="0;0.5;1" dur="18s" repeatCount="indefinite"/>
+    <g transform="translate(0 0)">
+      <g transform="translate(0 0)">
+        <animateTransform attributeName="transform" type="translate" values="0 0;0 -2;0 0" dur="0.38s" repeatCount="indefinite"/>
+        <!-- tail -->
+        <path d="M30 65h8v-8h8v-8h8v8h-8v8h-8v8h-8z" fill="#c9d1d9"/>
+        <!-- body -->
+        <rect x="13" y="54" width="24" height="18" fill="#c9d1d9"/>
+        <rect x="9" y="58" width="8" height="10" fill="#c9d1d9"/>
+        <!-- head and ears -->
+        <rect x="7" y="36" width="28" height="22" fill="#e6edf3"/>
+        <path d="M7 36v-8h8v8h6v-8h8v8z" fill="#e6edf3"/>
+        <!-- face -->
+        <rect x="13" y="43" width="4" height="4" fill="#0d1117"/>
+        <rect x="25" y="43" width="4" height="4" fill="#0d1117"/>
+        <rect x="19" y="49" width="4" height="3" fill="#f778ba"/>
+        <!-- paws -->
+        <g>
+          <rect x="13" y="70" width="8" height="8" fill="#e6edf3">
+            <animate attributeName="y" values="70;74;70" dur="0.38s" repeatCount="indefinite"/>
+          </rect>
+          <rect x="29" y="70" width="8" height="8" fill="#e6edf3">
+            <animate attributeName="y" values="74;70;74" dur="0.38s" repeatCount="indefinite"/>
+          </rect>
+        </g>
+      </g>
+    </g>
+  </g>
+  <text x="450" y="35" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" text-anchor="middle">mochi.exe is roaming...</text>
+</svg>
