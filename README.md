@@ -2,6 +2,10 @@
   <img src="./GitHub Profile Banner (1).gif" width="100%" alt="Animated GitHub Banner">
 </p>
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/beswinjoe/beswinjoe/main/dist/pet.svg" width="100%" alt="Mochi, my animated pixel cat">
+</p>
+
 ---
 
 # 👋 About Me
